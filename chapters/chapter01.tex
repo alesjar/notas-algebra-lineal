@@ -1,0 +1,63 @@
+\chapter{Systems of linear equations}
+%\chapterepigraph{An optional short quotation or guiding question.}{Attribution}
+
+\introsection
+Systems of linear equations represent the very first sets of equations that we learn to solve. As we go deeper into their understanding, we begin to unleash the power of linear algebra, only paired by its beauty. 
+
+\section{Solving systems of linear equations}
+\label{sec:solvingsystems}
+\sidenote{Gauss, Jordan}
+A linear equation is an expression of the form $a_{1}x_{1}+...+a_{n}x_{n} = b$, where the coefficients $a_{i}$ and the independent term $b$ are scalars, that is, elements of the \textbf{field} $\R$ or $\C$, that will be specified beforehand, and the $x_{i} $ are indeterminates or variables. 
+
+The equation $0=0$ is called \emph{trivial} and the equation $0=b$ with $b\neq 0$ is called \emph{inconsistent}. Any other equation is called \emph{consistent}.
+
+\begin{definition}
+  A  \textbf{system of linear equations} or linear system is a finite list of linear equations:
+  \begin{equation*}
+    (S) \linsys{a}{x}{b}
+  \end{equation*}
+\end{definition}
+
+\begin{definition}
+  A \textbf{vector} is an ordered tuple of scalars (numbers) of the field. Any of the scalars of a vector $v$ is called a \emph{coordinate} and if the vector has $n$ coordinates that are, for example, real numbers, we say that $v\in \R^{n}$. We will write vectors horizontally like
+  \begin{equation*}
+      v = \begin{pmatrix}
+        v_{1} \\
+        \vdots \\
+        v_{n}
+      \end{pmatrix}.
+  \end{equation*}
+  Nevertheless, we will usually write $v = (v_{1},\ldots,v_{n})^T$ to save space, meaning the same vector written horizontally like the one before. Later on, we will see that this $v^T$ operation has a name and meaning. \end{definition}
+
+A \textbf{solution} to a linear system like (S) is a vector $(c_{1},\ldots,c_{n})$ such that 
+
+If we look from a solutions perspective, we can classify equations in three types:
+\begin{enumerate}
+  \item The equation $0=0$ which is always true, and we call \textbf{trivial}.
+  \item The equation $0=b$ with $b\neq 0$, which is always false and we call \textbf{inconsistent}.
+  \item Any other equation has one solution, and we call them \textbf{consistent}.
+\end{enumerate}
+
+In the same manner, we can classify linear systems by their solutions:
+\begin{enumerate}
+  \item If every vector is a solution of $(S)$, we call it \textbf{trivial}. Note that this is only the case when all equations are trivial.
+  \item If no vector is a solution of $(S)$, we call it \textbf{inconsistent}. This can be the case without any inconsistent equations.
+  \item In any other case (the system has solutions, but not every vector is a solution), we call $(S)$ \textbf{consistent}:
+    \subitem If there is only one solution, we call $(S)$ \textbf{determined}.
+    \subitem If there is more than one solution, we call $(S)$ \textbf{underdetermined}.
+\end{enumerate}
+
+
+\begin{textbox}{Key idea}
+This is an optional framed box. Use \texttt{textblock} for an unframed
+block or \texttt{shadedbox} for a pale gray background.
+\end{textbox}
+\begin{shadedbox}{Key idea}
+  Shaded box
+\end{shadedbox}
+
+\begin{exercises}
+\begin{exercise}\label{ex:first}
+Prove that \(T(-x)=-T(x)\) for every linear map \(T\).
+\end{exercise}
+\end{exercises}

@@ -1,0 +1,106 @@
+% Your manuscript. Compile this file with pdfLaTeX, twice, or with latexmk.
+\documentclass{hubbardbook}
+% For accented European-language text, use [modernfonts] above, then e.g.:
+% \usepackage[spanish]{babel}
+% For A4 paper: \documentclass[a4paper,modernfonts]{hubbardbook}
+
+\usepackage{amsmath,array,xparse}
+
+\ExplSyntaxOn
+\tl_new:N \l__linsys_body_tl
+\cs_new:Npn \sysequals { = }
+
+% Write ordinary = signs and separate equations with \\.
+% The environment adds a dotted row at every line break.
+% Do not add a trailing \\ after the last equation.
+\NewDocumentEnvironment{sys}{b}
+  {
+    \tl_set:Nn \l__linsys_body_tl {#1}
+    \tl_replace_all:Nnn \l__linsys_body_tl { = } { & {}={} & }
+    \tl_replace_all:Nnn \l__linsys_body_tl { \\ }
+      { \\ & \vdots & \\ }
+    % Let \lineq also align correctly inside this environment.
+    \cs_set:Npn \sysequals { & {}={} & }
+    \left\{
+    \begin{array}{@{}>{\displaystyle}r@{}c@{}>{\displaystyle}l@{}}
+      \tl_use:N \l__linsys_body_tl
+    \end{array}
+    \right.
+  }
+  {}
+\ExplSyntaxOff
+
+% Generic m-by-n system: coefficients, unknowns, right-hand side.
+\NewDocumentCommand{\linsys}{G{a} G{x} G{b} G{m} G{n}}{%
+  \begingroup
+  \IfBlankTF{#1}{\def\linsysA{a}}{\def\linsysA{#1}}%
+  \IfBlankTF{#2}{\def\linsysX{x}}{\def\linsysX{#2}}%
+  \IfBlankTF{#3}{\def\linsysB{b}}{\def\linsysB{#3}}%
+  \IfBlankTF{#4}{\def\linsysM{m}}{\def\linsysM{#4}}%
+  \IfBlankTF{#5}{\def\linsysN{n}}{\def\linsysN{#5}}%
+
+  \def\linsysZero{0}%
+  \ifx\linsysB\linsysZero
+    \def\linsysFirstRHS{0}%
+    \def\linsysLastRHS{0}%
+  \else
+    \def\linsysFirstRHS{{\linsysB}_1}%
+    \def\linsysLastRHS{{\linsysB}_{\linsysM}}%
+  \fi
+
+  \begin{sys}
+    {\linsysA}_{11}{\linsysX}_1+\cdots
+      +{\linsysA}_{1\linsysN}{\linsysX}_{\linsysN}
+      =\linsysFirstRHS\\
+    {\linsysA}_{\linsysM 1}{\linsysX}_1+\cdots
+      +{\linsysA}_{\linsysM\linsysN}{\linsysX}_{\linsysN}
+      =\linsysLastRHS
+  \end{sys}%
+  \endgroup
+}
+
+% Generic vertical vector
+\NewDocumentCommand{\hvc}{m G{n}}{%
+  \left({#1}_1,\ldots,{#1}_{\IfBlankTF{#2}{n}{#2}}\right)%
+}
+
+\NewDocumentCommand{\vvc}{m G{n}}{%
+  \begin{pmatrix}
+    {#1}_1\\
+    \vdots\\
+    {#1}_{\IfBlankTF{#2}{n}{#2}}
+  \end{pmatrix}%
+}
+
+\title{Linear Algebra for Data Science}
+\author{Alejandro Moreno Becerra}
+\date{\today}
+
+% Put your own mathematical commands here.
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+
+\begin{document}
+\frontmatter
+\maketitle
+\tableofcontents
+
+\chapter*{Preface}
+\addcontentsline{toc}{chapter}{Preface}
+\markboth{Preface}{Preface}
+The purpose of this notes is being the reference for our Linear Algebra course this semester. This means they will have at least all content that will go into the final exam. For any errors detected, please contact me at alejandro.morenobecerra@ceu.es.
+
+\mainmatter
+% To start with a Chapter 0, uncomment the next line:
+% \setcounter{chapter}{-1}
+\include{chapters/chapter01}
+% \include{chapters/chapter02}
+
+%\appendix
+%\chapter{Additional material}
+%\section{Supporting results}
+%Place supplementary arguments here.
+
+\backmatter
+% Add a bibliography or index here when you need one.
+\end{document}
