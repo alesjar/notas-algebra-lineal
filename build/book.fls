@@ -1,4 +1,4 @@
-PWD /home/amb/Documents/estudios/tesis/latex/notas-algebra-lineal
+PWD /home/amb/documents/tesis/latex/notas-algebra-lineal
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
 INPUT book.tex
@@ -292,6 +292,11 @@ INPUT /usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+INPUT ./preamble.tex
+INPUT ./preamble.tex
+INPUT ./preamble.tex
+INPUT ./preamble.tex
+INPUT preamble.tex
 INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
 INPUT build/book.aux
@@ -319,7 +324,6 @@ INPUT build/book.out
 INPUT build/book.out
 INPUT build/book.out
 OUTPUT build/book.out
-INPUT /usr/share/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm

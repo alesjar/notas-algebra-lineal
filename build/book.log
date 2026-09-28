@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.7.8)  26 SEP 2026 14:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.6.26)  28 SEP 2026 13:51
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **book.tex
@@ -837,7 +837,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip93
-)) (/usr/share/texmf-dist/tex/latex/tools/array.sty
+)) (./preamble.tex (/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen311
 \ar@mcellbox=\box85
@@ -846,7 +846,7 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \extratabsurround=\skip94
 \backup@length=\skip95
 \ar@cellbox=\box86
-) (build/book.aux (build/chapters/chapter01.aux)
+)) (build/book.aux (build/chapters/chapter01.aux)
 
 LaTeX Warning: Label `sec:solvingsystems' multiply defined.
 
@@ -856,35 +856,35 @@ LaTeX Warning: Label `ex:first' multiply defined.
 )
 \openout1 = `book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Info: Redefining \microtypecontext on input line 83.
-Package microtype Info: Applying patch `item' on input line 83.
-Package microtype Info: Applying patch `toc' on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Info: Redefining \microtypecontext on input line 13.
+Package microtype Info: Applying patch `item' on input line 13.
+Package microtype Info: Applying patch `toc' on input line 13.
 Package microtype Info: The `eqnum' patch may not be effective because you are
 (microtype)             using the mathtools package. Make sure to insert
 (microtype)             `\leftprotrusion' and `\rightprotrusion' as
 (microtype)             appropriate in mathtools's `\newtagform' command.
-Package microtype Info: Applying patch `eqnum' on input line 83.
-Package microtype Info: Applying patch `footnote' on input line 83.
-Package microtype Info: Applying patch `verbatim' on input line 83.
-LaTeX Info: Redefining \microtypesetup on input line 83.
+Package microtype Info: Applying patch `eqnum' on input line 13.
+Package microtype Info: Applying patch `footnote' on input line 13.
+Package microtype Info: Applying patch `verbatim' on input line 13.
+LaTeX Info: Redefining \microtypesetup on input line 13.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -959,18 +959,18 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count372
-Package hyperref Info: Link coloring OFF on input line 83.
+Package hyperref Info: Link coloring OFF on input line 13.
  (build/book.out) (build/book.out)
 \@outlinefile=\write4
 \openout4 = `book.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/share/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -997,255 +997,255 @@ Chapter 1.
 Package marginnote Info: Margin note 5.1 is on absolute page 5 on input line 9.
 Package marginnote Info: right page because not two side mode on input line 9.
 Package marginnote Info: xpos seems to be 174.6525pt on input line 9.
-./chapters/chapter01.tex:18: Missing $ inserted.
+./chapters/chapter01.tex:17: Missing $ inserted.
 <inserted text> 
                 $
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapters/chapter01.tex:18: Missing } inserted.
+./chapters/chapter01.tex:17: Missing } inserted.
 <inserted text> 
                 }
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapters/chapter01.tex:18: Missing \endgroup inserted.
+./chapters/chapter01.tex:17: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapters/chapter01.tex:18: Display math should end with $$.
+./chapters/chapter01.tex:17: Display math should end with $$.
 <to be read again> 
                    \tex_par:D 
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-./chapters/chapter01.tex:18: Extra }, or forgotten \endgroup.
+./chapters/chapter01.tex:17: Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapters/chapter01.tex:18: Missing $ inserted.
+./chapters/chapter01.tex:17: Missing $ inserted.
 <inserted text> 
                 $
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ->{\linsysA 
                                }_{11}{\linsysX }_1+\cdots +{\linsysA }_{1\li...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ->{\linsysA }_{11}{\linsysX 
                                                }_1+\cdots +{\linsysA }_{1\li...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...nsysX }_1+\cdots +{\linsysA 
                                                   }_{1\linsysN }{\linsysX }_...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...ots +{\linsysA }_{1\linsysN 
                                                   }{\linsysX }_{\linsysN } &...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...ysA }_{1\linsysN }{\linsysX 
                                                   }_{\linsysN } &{}={}&\lins...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...sysN }{\linsysX }_{\linsysN 
                                                   } &{}={}&\linsysFirstRHS \...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \linsysFirstRHS ->{\linsysB 
                             }_1
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...RHS \\&\vdots &\\ {\linsysA 
                                                   }_{\linsysM 1}{\linsysX }_...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...s &\\ {\linsysA }_{\linsysM 
                                                   1}{\linsysX }_1+\cdots +{\...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...ysA }_{\linsysM 1}{\linsysX 
                                                   }_1+\cdots +{\linsysA }_{\...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...nsysX }_1+\cdots +{\linsysA 
                                                   }_{\linsysM \linsysN }{\li...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...dots +{\linsysA }_{\linsysM 
                                                   \linsysN }{\linsysX }_{\li...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...insysA }_{\linsysM \linsysN 
                                                   }{\linsysX }_{\linsysN } &...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...linsysM \linsysN }{\linsysX 
                                                   }_{\linsysN } &{}={}&\lins...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...sysN }{\linsysX }_{\linsysN 
                                                   } &{}={}&\linsysLastRHS 
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \linsysLastRHS ->{\linsysB 
                            }_{\linsysM }
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \linsysLastRHS ->{\linsysB }_{\linsysM 
                                        }
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Missing $ inserted.
+./chapters/chapter01.tex:17: Missing $ inserted.
 <inserted text> 
                 $
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1421,270 +1421,270 @@ Things are pretty mixed up, but I think the worst is over.
 
 
 ]) [2]
-./book.tex:96: Extra \else.
+./book.tex:26: Extra \else.
 \@include ...ed}\fi \let \@auxout \@mainaux \else 
                                                   \@latex@warning {\noexpand...
-l.96 \include{chapters/chapter01}
+l.26 \include{chapters/chapter01}
                                  
 I'm ignoring this; it doesn't match any \if.
 
 
-LaTeX Warning: \include should only be used after \begin{document} on input line 96.
+LaTeX Warning: \include should only be used after \begin{document} on input line 26.
 
 (./chapters/chapter01.tex
 Chapter 2.
 Package marginnote Info: Margin note 7.1 is on absolute page 7 on input line 9.
 Package marginnote Info: right page because not two side mode on input line 9.
 Package marginnote Info: xpos seems to be 174.6525pt on input line 9.
-./chapters/chapter01.tex:18: Missing $ inserted.
+./chapters/chapter01.tex:17: Missing $ inserted.
 <inserted text> 
                 $
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapters/chapter01.tex:18: Missing } inserted.
+./chapters/chapter01.tex:17: Missing } inserted.
 <inserted text> 
                 }
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapters/chapter01.tex:18: Missing \endgroup inserted.
+./chapters/chapter01.tex:17: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./chapters/chapter01.tex:18: Display math should end with $$.
+./chapters/chapter01.tex:17: Display math should end with $$.
 <to be read again> 
                    \tex_par:D 
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-./chapters/chapter01.tex:18: Extra }, or forgotten \endgroup.
+./chapters/chapter01.tex:17: Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./chapters/chapter01.tex:18: Missing $ inserted.
+./chapters/chapter01.tex:17: Missing $ inserted.
 <inserted text> 
                 $
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ->{\linsysA 
                                }_{11}{\linsysX }_1+\cdots +{\linsysA }_{1\li...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ->{\linsysA }_{11}{\linsysX 
                                                }_1+\cdots +{\linsysA }_{1\li...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...nsysX }_1+\cdots +{\linsysA 
                                                   }_{1\linsysN }{\linsysX }_...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...ots +{\linsysA }_{1\linsysN 
                                                   }{\linsysX }_{\linsysN } &...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...ysA }_{1\linsysN }{\linsysX 
                                                   }_{\linsysN } &{}={}&\lins...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...sysN }{\linsysX }_{\linsysN 
                                                   } &{}={}&\linsysFirstRHS \...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \linsysFirstRHS ->{\linsysB 
                             }_1
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...RHS \\&\vdots &\\ {\linsysA 
                                                   }_{\linsysM 1}{\linsysX }_...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...s &\\ {\linsysA }_{\linsysM 
                                                   1}{\linsysX }_1+\cdots +{\...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...ysA }_{\linsysM 1}{\linsysX 
                                                   }_1+\cdots +{\linsysA }_{\...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...nsysX }_1+\cdots +{\linsysA 
                                                   }_{\linsysM \linsysN }{\li...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...dots +{\linsysA }_{\linsysM 
                                                   \linsysN }{\linsysX }_{\li...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...insysA }_{\linsysM \linsysN 
                                                   }{\linsysX }_{\linsysN } &...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...linsysM \linsysN }{\linsysX 
                                                   }_{\linsysN } &{}={}&\lins...
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \l__linsys_body_tl ...sysN }{\linsysX }_{\linsysN 
                                                   } &{}={}&\linsysLastRHS 
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \linsysLastRHS ->{\linsysB 
                            }_{\linsysM }
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Undefined control sequence.
+./chapters/chapter01.tex:17: Undefined control sequence.
 \linsysLastRHS ->{\linsysB }_{\linsysM 
                                        }
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapters/chapter01.tex:18: Missing $ inserted.
+./chapters/chapter01.tex:17: Missing $ inserted.
 <inserted text> 
                 $
-l.18   \end
-           {equation*}
+l.17     (S) \linsys{a}{x}{b}{m}{n}
+                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1883,17 +1883,17 @@ Things are pretty mixed up, but I think the worst is over.
 
 
 ])
-./book.tex:96: Extra \fi.
+./book.tex:26: Extra \fi.
 \@include ...g \begin {document}}\@input@ {#1}\fi 
                                                   
-l.96 \include{chapters/chapter01}
+l.26 \include{chapters/chapter01}
                                  
 I'm ignoring this; it doesn't match any \if.
 
-./book.tex:96: Extra \fi.
+./book.tex:26: Extra \fi.
 \include ...clude \expandafter {\@curr@file } \fi 
                                                   
-l.96 \include{chapters/chapter01}
+l.26 \include{chapters/chapter01}
                                  
 I'm ignoring this; it doesn't match any \if.
 
@@ -1910,15 +1910,15 @@ Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: E36E75802619FD6569CA7D2A534D1609;1281.
  ) 
 Here is how much of TeX's memory you used:
- 33141 strings out of 469453
- 656555 string characters out of 5469038
- 1114267 words of memory out of 5000000
- 61174 multiletter control sequences out of 15000+600000
- 640724 words of font info for 119 fonts, out of 8000000 for 9000
+ 33151 strings out of 469453
+ 656705 string characters out of 5469037
+ 1114293 words of memory out of 5000000
+ 61179 multiletter control sequences out of 15000+600000
+ 640775 words of font info for 120 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  117i,12n,132p,1001b,1001s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on build/book.pdf (9 pages, 216792 bytes).
+Output written on build/book.pdf (9 pages, 217002 bytes).
 PDF statistics:
  242 PDF objects out of 1000 (max. 8388607)
  167 compressed objects within 2 object streams
