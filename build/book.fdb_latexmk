@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1790596295.26937 "book.tex" "build/book.pdf" "book" 1790596296.27736 2
+["pdflatex"] 1790598007.30863 "book.tex" "build/book.pdf" "book" 1790598008.21253 0
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1775415801 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1775415801 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1775415801 996 a18840b13b499c08ac2de96a99eda4bc ""
@@ -220,13 +220,13 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1782465031 325717 59a65e600f662ceace641c3ea8b5d4af ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1782465030 2349410 c289ef656f11cf3cfcea62c4172c5ee9 ""
   "book.tex" 1790596294.85596 1155 baf62e8acaf9b256d41cf16c41ca8704 ""
-  "build/book.aux" 1790596296.12396 921 86b9044fa1717e3c497f0f81c9717c92 "pdflatex"
-  "build/book.out" 1790596296.12396 1281 e36e75802619fd6569ca7d2a534d1609 "pdflatex"
-  "build/book.toc" 1790596296.12396 551 beb59bc287a4fb100efc223a66ac1d0a "pdflatex"
-  "build/chapters/chapter01.aux" 1790596296.05996 1745 6e8c86d93065151db9de554705bbfd35 "pdflatex"
-  "chapters/chapter01.tex" 1790596284.05596 3292 61886401a0ddb965018d87c91a73178b ""
+  "build/book.aux" 1790598008.09935 286 909d9ab465198d4e9ff09b39fb32b11f "pdflatex"
+  "build/book.out" 1790598008.09935 680 6b60eced7919355827202b1842db12b2 "pdflatex"
+  "build/book.toc" 1790598008.09935 301 2f47552c269a2d7d18402f89613ad79d "pdflatex"
+  "build/chapters/chapter01.aux" 1790598008.09935 1745 e332cd20e419491dcdafbed8e508ed7a "pdflatex"
+  "chapters/chapter01.tex" 1790598005.47135 4393 ae7ab35f8d91ff82911d2c8864667d9e ""
   "hubbardbook.cls" 1790592951.5711 9692 444c9dd7fe887ee3a609f1bb82d9d02f ""
-  "preamble.tex" 1790594567.22057 2007 100a0e4641bdf0e85724aab537be87ad ""
+  "preamble.tex" 1790596733.4118 2005 8c47b7621b5ab47f463c42aaceb76e6a ""
   (generated)
   "build/book.aux"
   "build/book.log"

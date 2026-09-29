@@ -29,7 +29,10 @@ The equation $0=0$ is called \emph{trivial} and the equation $0=b$ with $b\neq 0
   \end{equation*}
   Nevertheless, we will usually write $v = (v_{1},\ldots,v_{n})^T$ to save space, meaning the same vector written horizontally like the one before. Later on, we will see that this $v^T$ operation has a name and meaning. \end{definition}
 
-A \textbf{solution} to a linear system like (S) is a vector $(c_{1},\ldots,c_{n})$ such that 
+A \textbf{solution} to a linear system like (S) is a vector $(c_{1},\ldots,c_{n})$ such that, when we substitute the indeterminates $x_1,...,x_n$ by $c_1,...,c_n$ respectively, all the equations are satified. In other words,
+\begin{equation*}
+  \linsys{a}{c}{b}{}{}
+\end{equation*}
 
 If we look from a solutions perspective, we can classify equations in three types:
 \begin{enumerate}
@@ -46,6 +49,25 @@ In the same manner, we can classify linear systems by their solutions:
     \subitem If there is only one solution, we call $(S)$ \textbf{determined}.
     \subitem If there is more than one solution, we call $(S)$ \textbf{underdetermined}.
 \end{enumerate}
+
+From the perspective of the term $b$ of the system, sometimes called the vector of \textbf{independent terms}, we can speak about two types of systems:
+\begin{enumerate}
+  \item \textbf{Homogeneus} systems, where $b=0$, so all equations end in $...=0$.
+  \item \textbf{Nonhomogeneus} systems, where $b\neq 0$, so at least one equation does not end in $...=0$.
+\end{enumerate}
+
+Note that, to every nonhomogeneus system like $(S)$ we can associate a homogeneus system by replacing $b$ by zeros:
+\begin{equation*}
+  (S) \linsys{a}{x}{b}{}{} \longrightarrow (H) \linsys{a}{x}{0}{}{}
+\end{equation*}
+\begin{definition}
+    Two systems are called equivalent if they have the same solutions. Formally, if we call the systems $(S_1)$ and $(S_2)$, this is to say
+    \begin{equation*}
+      \hvc{c}{} \text{ is a solution for } (S_1) \iff \hvc{c}{} \text{ is a solution for } (S_2)
+    \end{equation*}
+\end{definition}
+
+
 
 
 \begin{textbox}{Key idea}

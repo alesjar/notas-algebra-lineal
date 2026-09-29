@@ -32,7 +32,6 @@
   \IfBlankTF{#3}{\def\linsysB{b}}{\def\linsysB{#3}}%
   \IfBlankTF{#4}{\def\linsysM{m}}{\def\linsysM{#4}}%
   \IfBlankTF{#5}{\def\linsysN{n}}{\def\linsysN{#5}}%
-
   \def\linsysZero{0}%
   \ifx\linsysB\linsysZero
     \def\linsysFirstRHS{0}%
@@ -41,7 +40,6 @@
     \def\linsysFirstRHS{{\linsysB}_1}%
     \def\linsysLastRHS{{\linsysB}_{\linsysM}}%
   \fi
-
   \begin{sys}
     {\linsysA}_{11}{\linsysX}_1+\cdots
       +{\linsysA}_{1\linsysN}{\linsysX}_{\linsysN}
