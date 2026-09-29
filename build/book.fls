@@ -1,4 +1,4 @@
-PWD /home/amb/documents/tesis/latex/notas-algebra-lineal
+PWD /home/amb/Documents/estudios/tesis/latex/notas-algebra-lineal
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
 INPUT book.tex
@@ -324,6 +324,7 @@ INPUT build/book.out
 INPUT build/book.out
 INPUT build/book.out
 OUTPUT build/book.out
+INPUT /usr/share/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm

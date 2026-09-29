@@ -7,7 +7,7 @@ Systems of linear equations represent the very first sets of equations that we l
 \section{Solving systems of linear equations}
 \label{sec:solvingsystems}
 \sidenote{Gauss, Jordan}
-A linear equation is an expression of the form $a_{1}x_{1}+...+a_{n}x_{n} = b$, where the coefficients $a_{i}$ and the independent term $b$ are scalars, that is, elements of the \textbf{field} $\R$ or $\C$, that will be specified beforehand, and the $x_{i} $ are indeterminates or variables. 
+A linear equation is an expression of the form $a_{1}x_{1}+...+a_{n}x_{n} = b$, where the coefficients $a_{i}$ and the independent term $b$ are \textbf{scalars}, that is, elements of the \textbf{field} $\R$ or $\C$, that will be specified beforehand, and the $x_{i} $ are indeterminates or variables. 
 
 The equation $0=0$ is called \emph{trivial} and the equation $0=b$ with $b\neq 0$ is called \emph{inconsistent}. Any other equation is called \emph{consistent}.
 
@@ -60,6 +60,16 @@ Note that, to every nonhomogeneus system like $(S)$ we can associate a homogeneu
 \begin{equation*}
   (S) \linsys{a}{x}{b}{}{} \longrightarrow (H) \linsys{a}{x}{0}{}{}
 \end{equation*}
+
+We observe that, if we take two solutions of a system $(S)$, call them $c=\hvc{c}{}^T$ and $d=\hvc{d}{}^T$, then their difference $c-d$ is a solution of the homogeneus system $(H)$ associated to $(S)$: indeed, to see that $c-d=(c_{1}-d_{1},...,c_{n}-d_{n})$ is a solution of $(H)$ we have to check that, when we substitute every $x_{i}$ by $c_{i}-d_{i}$ in $(H)$,
+\begin{gather*}
+  a_{j1}(c_{1}-d_{1})+...+a_{j}(c_{n}-d_{n}) = a_{1j}c_{1}-a_{1j}d_{1}+...+a_{jn}c_{n}-a_{jn}d_{n} =\\
+  =a_{j1}c_{1}+...+a_{jn}c_{n}-(a_{j1}d_{1}-a_{jn}d_{n}) = b_{j}-b_{j}=0.
+\end{gather*}
+This proves that, when we substitute $x_{i}$ by $c_{i}-d_{i}$ in every equation $a_{j1}x_{1}+...+a_{jn}c_{n}$, we get $0$, so $c-d$ is a solution of $(H)$.
+
+In the same way, every solution for $(S)$ can be obtained taking just one solution of $(S)$ and adding solutions for the associated homogeneus system $(H)$: if $c$ is a solution for $(S)$, and we want to see that every other solution $d$ of $(S)$ can be obtained as $c + \text{ solution for } (H)$, take $d = c+(c-d)$. By the previous remark, $c-d$ is a solution for $(H)$.
+
 \begin{definition}
     Two systems are called equivalent if they have the same solutions. Formally, if we call the systems $(S_1)$ and $(S_2)$, this is to say
     \begin{equation*}
@@ -67,6 +77,7 @@ Note that, to every nonhomogeneus system like $(S)$ we can associate a homogeneu
     \end{equation*}
 \end{definition}
 
+In order to solve linear systems, we will operate with their equations to simplify them trying not to lose solutions in the process. What are the operations that allow us to transform systems in this way? They are called elementary operations:
 
 
 
